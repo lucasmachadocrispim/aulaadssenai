@@ -1,0 +1,10 @@
+Clonar repositório:
+
+git clone *link do repositório*
+git config --global user.email "SeuEmailEntreAspas"
+git config --global user.name "SeuNomeDeUsuarioEntreAspas"
+
+
+Entrar na pasta clonada:
+cd *nomedapasta*
+
