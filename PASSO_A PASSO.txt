@@ -17,3 +17,5 @@ git commit -m "NomedoComit"
 git push
 (confirmar usuário)
 
+
+No final, remover as credenciais  no "Gerenciador de Credenciais" no Windows
