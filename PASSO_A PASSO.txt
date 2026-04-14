@@ -10,6 +10,10 @@ Entrar na pasta clonada:
 cd *nomedapasta*
 
 
+Para atualizar ela, utilizar:
+git pull
+
+
 Salvar mudanças:
 
 git add .
@@ -18,4 +22,6 @@ git push
 (confirmar usuário)
 
 
-No final, remover as credenciais  no "Gerenciador de Credenciais" no Windows
+No final, remover as credenciais  no "Gerenciador de Credenciais" no Windows e com os seguintes comandos:
+git config --global --unset user.name
+git config --global --unset user.email
