@@ -1,2 +1,30 @@
 # Testando o primeiro repositório
 Estudando no SENAI SP - Taubaté
+
+Clonar repositório:
+
+git clone *link do repositório*
+git config --global user.email "SeuEmailEntreAspas"
+git config --global user.name "SeuNomeDeUsuarioEntreAspas"
+
+
+Entrar na pasta clonada:
+
+cd *nomedapasta*
+
+
+Para atualizar ela, utilizar:
+git pull
+
+
+Salvar mudanças:
+
+git add .
+git commit -m "NomedoComit"
+git push
+(confirmar usuário)
+
+
+No final, remover as credenciais  no "Gerenciador de Credenciais" no Windows e com os seguintes comandos:
+git config --global --unset user.name
+git config --global --unset user.email
