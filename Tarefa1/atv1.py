@@ -42,11 +42,12 @@ class Biblioteca:
         titulo = input("Insira o título do livro que deseja devolver: ")
         livro = self.encontrar_livro(titulo)
         if livro:
-            if not livro.get_disponivel():
+            if livro.get_disponivel():
+                
+                print("O livro não está disponível para devolução.")
+            else:
                 livro.devolver()
                 print("Livro devolvido com sucesso.")
-            else:
-                print("O livro não está disponível para devolução.")
         else:
             print("Livro não encontrado.")
     def listar_livros(self):
